@@ -1,0 +1,1 @@
+cmd_/home/oslab/kernelModule/My_proc.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -z noexecstack   --build-id  -T ./scripts/module-common.lds -o /home/oslab/kernelModule/My_proc.ko /home/oslab/kernelModule/My_proc.o /home/oslab/kernelModule/My_proc.mod.o;  true
